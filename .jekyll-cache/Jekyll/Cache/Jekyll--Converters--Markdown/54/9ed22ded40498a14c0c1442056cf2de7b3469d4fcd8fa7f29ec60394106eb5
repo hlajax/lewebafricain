@@ -1,8 +1,4 @@
----
-layout: default
-title: "Bienvenue | Le Web Africain"
----
-<div class="container-fluid ">
+I"s<div class="container-fluid ">
 	<div class="row">
 		<div class="col-lg-12 lwa-body">
 			<div class="row mt-5 ms-5">
@@ -63,7 +59,7 @@ title: "Bienvenue | Le Web Africain"
 				<div class="col-lg-6 p-5">
 					<div class="row">
 						<div class="col-lg-10 offset-lg-1">
-					<img src="https://res.cloudinary.com/aseed/image/upload/v1607749233/community_krwi3x.jpg" alt="" class="img-fluid">
+					<img src="https://res.cloudinary.com/aseed/image/upload/v1607749233/community_krwi3x.jpg" alt="" class="img-fluid" />
 				</div>
 					</div>
 				</div>
@@ -92,3 +88,4 @@ title: "Bienvenue | Le Web Africain"
 		</div>
 	</div>
 </div>
+:ET
