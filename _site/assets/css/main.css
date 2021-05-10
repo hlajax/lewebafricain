@@ -1,21 +1,2 @@
-body { background: #ffffff; color: #000000; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; }
-
-.lwa-logo { font-size: 24px; font-weight: bold; }
-
-.nav-pills .nav-item a { color: white; font-size: 20px; }
-
-.lwa-body { background: url(https://res.cloudinary.com/aseed/image/upload/v1607748824/hero-bg-desktop-filtre_avlq6v.jpg) no-repeat; background-position: center center; background-size: cover; background-repeat: no-repeat; height: 100vh; width: 100%; top: 0; left: 0; right: 0; bottom: 0; }
-
-.lwa-text-bold { font-weight: bold; }
-
-.lwa-img-bloc { height: auto; background-color: #f2f2f2; }
-
-.lwa-footer { background-color: white; height: auto; }
-
-.lwa-footer .nav-pills .nav-item a { color: black; font-size: 14px; }
-
-.lwa-footer p { color: black; font-size: 14px; }
-
-.lwa-intro { font-size: 60px; line-height: 1.22; }
 
 /*# sourceMappingURL=main.css.map */

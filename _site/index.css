@@ -1,18 +1,37 @@
+body{
+	background-color: #000000;
+}
 .lwa-logo{
 	font-size: 24px;
 	font-weight: bold;
 }
+.nav-pills{
+	float: right;
+}
 .nav-pills .nav-item a{
 	color: white;
-	font-size: 20px;
+	font-size: 16px;
+}
+.dropdown-menu{
+	background-color:black;
+}
+.dropdown-menu:hover{
+	background-color:transparent;
+}
+.dropdown-menu .nav-item a{
+	color: white;
+	font-size: 16px;
+}
+.dropdown-menu .nav-item a:hover{
+	color: white;
+	background-color:transparent;
 }
 .lwa-body{
-	background:url(https://res.cloudinary.com/aseed/image/upload/v1607748824/hero-bg-desktop-filtre_avlq6v.jpg)no-repeat;
-	background-position: center center;
+	background:url('https://res.cloudinary.com/aseed/image/upload/v1620649303/lwa/african-women-5991743_1920_n34mdp.jpg')no-repeat;
+	background-position: center top;
 	background-size: cover;
 	background-repeat: no-repeat;
-	height: 100vh;
-	width: 100%;
+	height: auto;
 	top: 0;
 	left: 0;
 	right: 0;
@@ -38,6 +57,129 @@
 	font-size: 14px;
 }
 .lwa-intro{
-	font-size: 60px;
-	line-height: 1.22;
+	padding-top: 15%;
+	padding-bottom: 0%;
+	padding-left: 5%;
+}
+.lwa-intro-text{
+	font-size: 36px;
+	line-height: normal;
+}
+.lwa-bloc-text{
+	font-size:36px;
+	font-weight:bold;
+}
+.m-top{
+	margin-top: 5%;
+}
+
+.m-bottom{
+	margin-bottom: 5%;
+}
+
+.m-top-big{
+	margin-top: 10%;
+}
+
+.m-bottom-big{
+	margin-bottom: 10%;
+}
+.btn{
+	border-radius: 0px;
+}
+.btn-lwa{
+	background-color: #253C59;
+	color:white;
+}
+/*------mqs----------*/
+@media (min-width: 360px) and (max-width: 440px) {
+	.lwa-logo{
+		font-size: 14px;
+		font-weight: bold;
+	}
+	.nav-pills{
+		float: left;
+	}
+	.nav-pills .nav-item a{
+		color: white;
+		font-size: 12px;
+	}
+	.dropdown-menu{
+		background-color:black;
+	}
+	.dropdown-menu:hover{
+		background-color:transparent;
+	}
+	.dropdown-menu .nav-item a{
+		color: white;
+		font-size: 16px;
+	}
+	.dropdown-menu .nav-item a:hover{
+		color: white;
+		background-color:transparent;
+	}
+	.lwa-body{
+		background:url('https://res.cloudinary.com/aseed/image/upload/v1620649303/lwa/african-women-5991743_1920_n34mdp.jpg')no-repeat;
+		background-position: center top;
+		background-size: cover;
+		background-repeat: no-repeat;
+		height: auto;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+	}
+	.lwa-text-bold{
+		font-weight: bold;
+	}
+	.lwa-img-bloc{
+		height: auto;
+		background-color:#f2f2f2;
+	}
+	.lwa-footer{
+		background-color: white;
+		height:auto;
+	}
+	.lwa-footer .nav-pills .nav-item a{
+		color: black;
+		font-size: 14px;
+	}
+	.lwa-footer p{
+		color: black;
+		font-size: 14px;
+	}
+	.lwa-intro{
+		padding-top: 40%;
+		padding-bottom: 0%;
+		padding-left: 5%;
+	}
+	.lwa-intro-text{
+		font-size: 20px;
+		line-height: normal;
+		text-align: center;
+	}
+	.lwa-bloc-text{
+		font-size:18px;
+		font-weight:bold;
+		text-align: center;
+	}
+	.m-top{
+		margin-top: 5%;
+	}
+	
+	.m-bottom{
+		margin-bottom: 5%;
+	}
+	
+	.m-top-big{
+		margin-top: 10%;
+	}
+	
+	.m-bottom-big{
+		margin-bottom: 10%;
+	}
+	.btn{
+		border-radius: 0px;
+	}
+
 }

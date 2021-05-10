@@ -1,8 +1,35 @@
----
-layout: default
-title: "Bienvenue | Le Web Africain"
----
-{% include menu.html %}
+I"Ñ<div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-3 text-white">
+            <h2>LWA</h2>
+        </div>
+        <div class="col-lg-9">
+          <ul class="nav nav-pills">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="/">Accueil</a>
+              </li>
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">
+                      Nos Produits
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li><a class="dropdown-item" href="#">Separated link</a></li>
+                  </ul>
+                </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Nous rejoindre</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Nous contacter</a>
+              </li>
+            </ul>
+        </div>
+    </div>
+</div>
 <div class="container-fluid ">
 	<div class="row">
 		<div class="col-lg-12 lwa-body">
@@ -59,7 +86,7 @@ title: "Bienvenue | Le Web Africain"
 				<div class="col-lg-6 p-5">
 					<div class="row">
 						<div class="col-lg-10 offset-lg-1">
-					<img src="https://res.cloudinary.com/aseed/image/upload/v1607749233/community_krwi3x.jpg" alt="" class="img-fluid">
+					<img src="https://res.cloudinary.com/aseed/image/upload/v1607749233/community_krwi3x.jpg" alt="" class="img-fluid" />
 				</div>
 					</div>
 				</div>
@@ -88,3 +115,4 @@ title: "Bienvenue | Le Web Africain"
 		</div>
 	</div>
 </div>
+:ET
