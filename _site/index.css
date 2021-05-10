@@ -1,5 +1,6 @@
 body{
 	background-color: #000000;
+	font-family: 'Roboto', sans-serif;
 }
 .lwa-logo{
 	font-size: 24px;
@@ -69,6 +70,10 @@ body{
 	font-size:36px;
 	font-weight:bold;
 }
+.lwa-paragraphe{
+	text-align: left;
+}
+
 .m-top{
 	margin-top: 5%;
 }
@@ -91,18 +96,59 @@ body{
 	background-color: #253C59;
 	color:white;
 }
+.overlay {
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: rgb(0,0,0);
+	background-color: rgba(0,0,0, 0.9);
+	overflow-x: hidden;
+	transition: 0.5s;
+  }
+  
+  .overlay-content {
+	position: relative;
+	top: 25%;
+	width: 100%;
+	text-align: center;
+	margin-top: 30px;
+  }
+  
+  .overlay a {
+	padding: 8px;
+	text-decoration: none;
+	font-size: 36px;
+	color: #818181;
+	display: block;
+	transition: 0.3s;
+  }
+  
+  .overlay a:hover, .overlay a:focus {
+	color: #f1f1f1;
+  }
+  
+  .overlay .closebtn {
+	position: absolute;
+	top: 20px;
+	right: 45px;
+	font-size: 60px;
+  }
 /*------mqs----------*/
 @media (min-width: 360px) and (max-width: 440px) {
 	.lwa-logo{
-		font-size: 14px;
-		font-weight: bold;
+		font-size: 16px;
+		font-weight: normal;
+		margin-top: 5%;
 	}
 	.nav-pills{
-		float: left;
+		float: right;
 	}
 	.nav-pills .nav-item a{
 		color: white;
-		font-size: 12px;
+		font-size: 16px;
 	}
 	.dropdown-menu{
 		background-color:black;
@@ -156,11 +202,13 @@ body{
 	.lwa-intro-text{
 		font-size: 20px;
 		line-height: normal;
-		text-align: center;
 	}
 	.lwa-bloc-text{
 		font-size:18px;
 		font-weight:bold;
+		text-align: center;
+	}
+	.lwa-paragraphe{
 		text-align: center;
 	}
 	.m-top{
@@ -181,5 +229,6 @@ body{
 	.btn{
 		border-radius: 0px;
 	}
+	  
 
 }
