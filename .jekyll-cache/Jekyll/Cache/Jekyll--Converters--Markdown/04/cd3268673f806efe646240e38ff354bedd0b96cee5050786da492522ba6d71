@@ -1,47 +1,4 @@
-<!DOCTYPE html>
-<html lang="en-US">
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="utf-8">
-    <title>Bienvenue | Le Web Africain - </title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" href="/index.css">
-    <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="icon" href="https://res.cloudinary.com/aseed/image/upload/v1620910132/lwa/icone2_cnqtu2.png">
-  </head>
-  <body>
-    <div class="container-fluid lwa-body">
-<div id="myNav" class="overlay">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <div class="overlay-content">
-      <ul class="nav flex-column">
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="/">Accueil</a>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">
-                    Nos Produits
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                  <li><hr class="dropdown-divider" /></li>
-                  <li><a class="dropdown-item" href="#">Separated link</a></li>
-                </ul>
-              </li>
-            <li class="nav-item">
-              <a class="nav-link" href="https://bit.ly/2SHIe9R">Nous rejoindre</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Nous contacter</a>
-            </li>
-          </ul>
-  </div>
-</div>
-<div class="row">
+I"&<div class="row">
   <div class="col-lg-3 col-7 text-white">
       <img src="https://res.cloudinary.com/aseed/image/upload/v1620909531/lwa/logo_j7isro.png" alt="lwa-logo" class="img-fluid logo" />
   </div>
@@ -74,6 +31,68 @@
       </ul>
   </div>
 </div>
+<div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+            <ul class="nav flex-column">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="/">Accueil</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">
+                          Nos Produits
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        <li><hr class="dropdown-divider" /></li>
+                        <li><a class="dropdown-item" href="#">Separated link</a></li>
+                      </ul>
+                    </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="https://bit.ly/2SHIe9R">Nous rejoindre</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Nous contacter</a>
+                  </li>
+                </ul>
+        </div>
+      </div>
+<div class="container-fluid lwa-body">
+        <div class="row">
+            <div class="col-lg-3 col-7 text-white">
+                <img src="https://res.cloudinary.com/aseed/image/upload/v1620909531/lwa/logo_j7isro.png" alt="lwa-logo" class="img-fluid logo" />
+            </div>
+            <div class="col-lg-9 col-5">
+              <ul class="nav nav-pills">
+                <li class="nav-item d-xxl-none d-xl-none d-lg-none d-md-none d-block">
+                    <a class="nav-link" style="cursor:pointer" onclick="openNav()">&#9776; Menu</a>
+                  </li>
+                  <li class="nav-item d-xxl-block d-xl-block d-lg-block d-md-block d-none">
+                    <a class="nav-link" aria-current="page" href="/">Accueil</a>
+                  </li>
+                  <li class="nav-item dropdown d-xxl-block d-xl-block d-lg-block d-md-block d-none">
+                      <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="https://bit.ly/2SHIe9R" role="button" aria-expanded="false">
+                          Nos Produits
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        <li><hr class="dropdown-divider" /></li>
+                        <li><a class="dropdown-item" href="#">Separated link</a></li>
+                      </ul>
+                    </li>
+                  <li class="nav-item d-xxl-block d-xl-block d-lg-block d-md-block d-none">
+                    <a class="nav-link" href="#">Nous rejoindre</a>
+                  </li>
+                  <li class="nav-item d-none d-xxl-block d-xl-block d-lg-block d-md-block d-none">
+                    <a class="nav-link" href="#">Nous contacter</a>
+                  </li>
+                </ul>
+            </div>
+        </div>
         <div class="row">
             <div class="col-lg-12">
                 <div class="row">
@@ -174,16 +193,4 @@
             </div>
         </div>
     </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
-    <script>
-        function openNav() {
-          document.getElementById("myNav").style.width = "100%";
-        }
-        
-        function closeNav() {
-          document.getElementById("myNav").style.width = "0%";
-        }
-        </script>  
-</body>
-</html>
+:ET

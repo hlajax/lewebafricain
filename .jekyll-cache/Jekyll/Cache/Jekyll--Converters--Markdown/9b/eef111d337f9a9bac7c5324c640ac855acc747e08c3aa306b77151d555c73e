@@ -1,18 +1,36 @@
-<!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="utf-8">
-    <title>{{ page.title }} - {{ site.title }}</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
-    <link rel="icon" href="https://res.cloudinary.com/aseed/image/upload/v1620910132/lwa/icone2_cnqtu2.png">
-  </head>
-  <body>
-    <div id="myNav" class="overlay">
+I"�$<div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-3 text-white">
+            <h2>LWA</h2>
+        </div>
+        <div class="col-lg-9">
+          <ul class="nav nav-pills">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="/">Accueil</a>
+              </li>
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">
+                      Nos Produits
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li><a class="dropdown-item" href="#">Separated link</a></li>
+                  </ul>
+                </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Nous rejoindre</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Nous contacter</a>
+              </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div id="myNav" class="overlay">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <div class="overlay-content">
             <ul class="nav flex-column">
@@ -27,7 +45,7 @@
                         <li><a class="dropdown-item" href="#">Action</a></li>
                         <li><a class="dropdown-item" href="#">Another action</a></li>
                         <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        <li><hr class="dropdown-divider"></li>
+                        <li><hr class="dropdown-divider" /></li>
                         <li><a class="dropdown-item" href="#">Separated link</a></li>
                       </ul>
                     </li>
@@ -40,10 +58,10 @@
                 </ul>
         </div>
       </div>
-    <div class="container-fluid lwa-body">
+<div class="container-fluid lwa-body">
         <div class="row">
             <div class="col-lg-3 col-7 text-white">
-                <img src="https://res.cloudinary.com/aseed/image/upload/v1620909531/lwa/logo_j7isro.png" alt="lwa-logo" class="img-fluid logo">
+                <img src="https://res.cloudinary.com/aseed/image/upload/v1620909531/lwa/logo_j7isro.png" alt="lwa-logo" class="img-fluid logo" />
             </div>
             <div class="col-lg-9 col-5">
               <ul class="nav nav-pills">
@@ -61,7 +79,7 @@
                         <li><a class="dropdown-item" href="#">Action</a></li>
                         <li><a class="dropdown-item" href="#">Another action</a></li>
                         <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        <li><hr class="dropdown-divider"></li>
+                        <li><hr class="dropdown-divider" /></li>
                         <li><a class="dropdown-item" href="#">Separated link</a></li>
                       </ul>
                     </li>
@@ -80,7 +98,7 @@
                     <div class="col-lg-6 lwa-intro">
                         <h1 class="text-white lwa-intro-text">
                             Nous croyons à la connexion des personnes et en leurs idées.
-                            <br>
+                            <br />
                             Nous les aidons à les développer.
                         </h1>
                         <a href="#" class="btn btn-lwa">
@@ -101,17 +119,17 @@
         </div>
     </div>
 </div>
-    <div class="container-fluid m-top-big m-bottom-big">
+<div class="container-fluid m-top-big m-bottom-big">
         <div class="row">
             <div class="col-lg-6" style="padding:5%;">
                 <p class="lwa-paragraphe text-white">
                     Nous accompagnons gratuitement les personnes, associations et organisations
                     ayant des idées innovantes à forte valeur ajoutée
                     dans la création de contenu sur le web en Afrique.
-                    <br><br>
+                    <br /><br />
                     Peu importe ce que vous avez en tête : 
                     <i>Un blog, un site de contes, un site de cuisine, etc.</i>
-                    <br><br>
+                    <br /><br />
                     Nous mettons à votre disposition notre équipe qui vous aide dans
                     la création et le déploiement de votre solution sur le web.
                 </p>
@@ -120,12 +138,12 @@
                 </a>
             </div>
             <div class="col-lg-6">
-                <img src="https://res.cloudinary.com/aseed/image/upload/v1620907302/lwa/contenu_gvxnza.jpg" alt="citation-keyser" class="img-fluid">
+                <img src="https://res.cloudinary.com/aseed/image/upload/v1620907302/lwa/contenu_gvxnza.jpg" alt="citation-keyser" class="img-fluid" />
             </div>
         </div>
     </div>
 
-    <div class="container m-top-big m-bottom-big">
+<div class="container m-top-big m-bottom-big">
         <div class="row">
             <div class="col-lg-10 offset-lg-1 text-center">
                 <h2 class="text-center text-white lwa-bloc-text">
@@ -136,7 +154,7 @@
         </div>
     </div>
 
-    <div class="container-fluid m-top-big m-bottom-big">
+<div class="container-fluid m-top-big m-bottom-big">
         <div class="row">
             <div class="col-lg-6" style="padding:5%;">
                 <p class="lwa-paragraphe text-white">
@@ -148,11 +166,11 @@
                 </a>
             </div>
             <div class="col-lg-6">
-                <img src="https://res.cloudinary.com/aseed/image/upload/v1620910351/lwa/communaute_n9j6ws.jpg" alt="lwa-communauté" class="img-fluid">
+                <img src="https://res.cloudinary.com/aseed/image/upload/v1620910351/lwa/communaute_n9j6ws.jpg" alt="lwa-communauté" class="img-fluid" />
             </div>
         </div>
     </div>
-    <div class="container m-top p-3 text-white">
+<div class="container m-top p-3 text-white">
         <div class="row">
             <div class="col-lg-12">
                 <ul class="nav nav-pills float-end">
@@ -174,16 +192,4 @@
             </div>
         </div>
     </div>
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
-    <script>
-        function openNav() {
-          document.getElementById("myNav").style.width = "100%";
-        }
-        
-        function closeNav() {
-          document.getElementById("myNav").style.width = "0%";
-        }
-        </script>  
-</body>
-</html>
+:ET

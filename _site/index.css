@@ -38,6 +38,10 @@ body{
 	right: 0;
 	bottom: 0;
 }
+.logo{
+	width: 40%;
+	margin-top: 3%;
+}
 .lwa-text-bold{
 	font-weight: bold;
 }
@@ -59,11 +63,11 @@ body{
 }
 .lwa-intro{
 	padding-top: 15%;
-	padding-bottom: 0%;
+	padding-bottom: 5%;
 	padding-left: 5%;
 }
 .lwa-intro-text{
-	font-size: 36px;
+	font-size: 40px;
 	line-height: normal;
 }
 .lwa-bloc-text{
@@ -71,6 +75,8 @@ body{
 	font-weight:bold;
 }
 .lwa-paragraphe{
+	font-size: 24px;
+	font-weight: 400;
 	text-align: left;
 }
 
@@ -204,8 +210,8 @@ body{
 		line-height: normal;
 	}
 	.lwa-bloc-text{
-		font-size:18px;
-		font-weight:bold;
+		font-size:24px;
+		font-weight:400;
 		text-align: center;
 	}
 	.lwa-paragraphe{
