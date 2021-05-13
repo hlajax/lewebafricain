@@ -206,16 +206,17 @@ body{
 		padding-left: 5%;
 	}
 	.lwa-intro-text{
-		font-size: 20px;
+		font-size: 28px;
 		line-height: normal;
 	}
 	.lwa-bloc-text{
-		font-size:24px;
+		font-size:18px;
 		font-weight:400;
 		text-align: center;
 	}
 	.lwa-paragraphe{
 		text-align: center;
+		font-size: 16px;
 	}
 	.m-top{
 		margin-top: 5%;
