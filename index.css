@@ -29,16 +29,13 @@ body{
 .dropdown-menu{
 	background-color:black;
 }
-.dropdown-menu:hover{
-	background-color:transparent;
-}
+
 .dropdown-menu .nav-item a{
 	color: white;
 	font-size: 16px;
 }
 .dropdown-menu .nav-item a:hover{
-	color: white;
-	background-color:transparent;
+	color: black;
 }
 .lwa-body{
 	background:url('https://res.cloudinary.com/aseed/image/upload/v1620649303/lwa/african-women-5991743_1920_n34mdp.jpg')no-repeat;
@@ -191,11 +188,11 @@ body{
 		height:250px;
 	}
 	.nav-pills{
-		float: right;
+		float: left;
 	}
 	.nav-pills .nav-item a{
 		color: white;
-		font-size: 16px;
+		font-size: 14px;
 	}
 	.dropdown-menu{
 		background-color:black;

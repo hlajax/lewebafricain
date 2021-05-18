@@ -1,0 +1,132 @@
+I"_<div class="container-fluid bg-amarya" style="height: 100px;">
+    <div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+      <ul class="nav flex-column">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="/">Accueil</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">
+                    Nos Produits
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="/amarya">Amarya</a></li>
+                  <li><a class="dropdown-item" href="/biografrik">Biografrik</a></li>
+                  <li><a class="dropdown-item" href="/hame">HAME</a></li>
+                  <li><a class="dropdown-item" href="/molakisi">Molakisi</a></li>
+                </ul>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://bit.ly/2SHIe9R">Nous rejoindre</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Nous contacter</a>
+            </li>
+          </ul>
+  </div>
+</div>
+<div class="row">
+  <div class="col-lg-3 col-7 text-white">
+      <img src="https://res.cloudinary.com/aseed/image/upload/v1620909531/lwa/logo_j7isro.png" alt="lwa-logo" class="img-fluid logo" />
+  </div>
+  <div class="col-lg-9 col-5">
+    <ul class="nav nav-pills">
+      <li class="nav-item d-xxl-none d-xl-none d-lg-none d-md-none d-block">
+          <a class="nav-link" style="cursor:pointer" onclick="openNav()">&#9776; Menu</a>
+        </li>
+        <li class="nav-item d-xxl-block d-xl-block d-lg-block d-md-block d-none">
+          <a class="nav-link" aria-current="page" href="/">Accueil</a>
+        </li>
+        <li class="nav-item dropdown d-xxl-block d-xl-block d-lg-block d-md-block d-none">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="https://bit.ly/2SHIe9R" role="button" aria-expanded="false">
+                Nos Produits
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="/amarya">Amarya</a></li>
+              <li><a class="dropdown-item" href="/biografrik">Biografrik</a></li>
+              <li><a class="dropdown-item" href="/hame">HAME</a></li>
+              <li><a class="dropdown-item" href="/molakisi">Molakisi</a></li>
+            </ul>
+          </li>
+        <li class="nav-item d-xxl-block d-xl-block d-lg-block d-md-block d-none">
+          <a class="nav-link" href="#">Nous rejoindre</a>
+        </li>
+        <li class="nav-item d-none d-xxl-block d-xl-block d-lg-block d-md-block d-none">
+          <a class="nav-link" href="#">Nous contacter</a>
+        </li>
+      </ul>
+  </div>
+</div>
+</div>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-5 bg-amarya prod-intro">
+            <img src="https://res.cloudinary.com/aseed/image/upload/v1621336766/amarya/Ai_Vector_colored-white_g2yjh3.png" alt="" class="img-fluid" />
+            <a href="https://lwa-amarya.herokuapp.com/" class="btn btn-outline-light mt-4" target="_blank">Aller sur Amarya</a>
+        </div>
+        <div class="col-lg-7 prod-img">
+        </div>
+    </div>
+</div>
+<div class="container text-white">
+    <div class="row">
+        <div class="col-lg-8 offset-lg-2 m-top-big m-bottom-big">
+            <h2 class="fw-bold">Be together, whenever.</h2>
+            <p>
+                Messenger helps you connect with the people you care about most. 
+                It is your shared space to customize and express what’s on your mind and share content and experiences in the moment together on any device, anytime, anywhere.
+            </p>
+        </div>
+    </div>
+</div>
+<div class="container text-white m-topm-bottom">
+    <div class="row">
+        <div class="col-lg-8 offset-lg-2">
+            <h2 class="fw-bold">Contact</h2>
+            <hr />
+            <h5>Chief Business Officer</h5>
+            <br />
+            <h6>Aïcha Venusia Asseko</h6>
+            <br />
+            <p>Téléphone : +24174408634</p>
+            <br />
+            <p>Email : digitalvee@gmail.com</p>
+        </div>
+    </div>
+</div>
+<div class="container text-white m-topm-bottom">
+    <div class="row">
+        <div class="col-lg-8 offset-lg-2">
+            <h2 class="fw-bold">Contact</h2>
+            <hr />
+            <h5>Chief Business Officer</h5>
+            <br />
+            <h6>Aïcha Venusia Asseko</h6>
+            <br />
+            <p>Téléphone : +24174408634</p>
+            <br />
+            <p>Email : digitalvee@gmail.com</p>
+        </div>
+    </div>
+</div>
+<div class="container-fluid m-top text-white">
+    <div class="row">
+        <div class="col-lg-6">
+            <p class="">
+                &copy; <script>document.write(new Date().getFullYear())</script> <strong>Le Web Africain</strong>
+            </p>
+        </div>
+        <div class="col-lg-6 order-12">
+            <ul class="nav nav-pills">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#">Accueil</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://bit.ly/2SHIe9R">Nous Rejoindre</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+:ET
