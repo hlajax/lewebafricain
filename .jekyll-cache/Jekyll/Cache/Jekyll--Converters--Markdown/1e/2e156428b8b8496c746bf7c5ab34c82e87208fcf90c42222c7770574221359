@@ -1,4 +1,4 @@
-I"�<div class="container-fluid lwa-body">
+I"� <div class="container-fluid lwa-body">
 <div id="myNav" class="overlay">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
   <div class="overlay-content">
@@ -11,11 +11,10 @@
                     Nos Produits
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                  <li><hr class="dropdown-divider" /></li>
-                  <li><a class="dropdown-item" href="#">Separated link</a></li>
+                  <li><a class="dropdown-item" href="/amarya">Amarya</a></li>
+                  <li><a class="dropdown-item" href="/biografrik">Biografrik</a></li>
+                  <li><a class="dropdown-item" href="/hame">HAME</a></li>
+                  <li><a class="dropdown-item" href="/molakisi">Molakisi</a></li>
                 </ul>
               </li>
             <li class="nav-item">
@@ -60,23 +59,31 @@
       </ul>
   </div>
 </div>
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="row">
-                    <div class="col-lg-6 lwa-intro">
-                        <h1 class="text-white lwa-intro-text">
-                            Nous croyons à la connexion des personnes et en leurs idées.
-                            <br />
-                            Nous les aidons à les développer.
-                        </h1>
-                        <a href="#" class="btn btn-lwa">
-                            Voir nos projets
-                        </a>
-                    </div>
-                </div>
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="row">
+                <div class="col-lg-6 lwa-intro">
+                    <h1 class="text-white lwa-intro-text">
+                        Nous croyons à la connexion des personnes et en leurs idées.
+                        <br />
+                        Nous les aidons à les développer.
+                    </h1>
+                    <div class="btn-group dropdown">
+                        <button type="button" class="btn btn-lwa dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                            Ce que nous avons construit
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-dark">
+                            <li><a class="dropdown-item" href="/amarya">Amarya</a></li>
+                            <li><a class="dropdown-item" href="/biografrik">Biografrik</a></li>
+                            <li><a class="dropdown-item" href="/hame">HAME</a></li>
+                            <li><a class="dropdown-item" href="/molakisi">Molakisi</a></li>
+                        </ul>
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+</div>
 <div class="container m-top m-bottom">
     <div class="row">
         <div class="col-lg-10 offset-lg-1 text-center">
@@ -89,7 +96,7 @@
 </div>
 <div class="container-fluid m-top-big m-bottom-big">
         <div class="row">
-            <div class="col-lg-6 order-last" style="padding:5%;">
+            <div class="col-lg-6 order-xxl-first order-xl-first order-lg-first order-md-first order-last" style="padding:5%;">
                 <p class="lwa-paragraphe text-white">
                     Nous accompagnons gratuitement les personnes, associations et organisations
                     ayant des idées innovantes à forte valeur ajoutée
@@ -105,7 +112,7 @@
                     Voir les projets
                 </a>
             </div>
-            <div class="col-lg-6 order-first">
+            <div class="col-lg-6 order-xxl-last order-xl-last order-lg-last order-md-last order-first">
                 <img src="https://res.cloudinary.com/aseed/image/upload/v1620907302/lwa/contenu_gvxnza.jpg" alt="citation-keyser" class="img-fluid" />
             </div>
         </div>
@@ -124,7 +131,7 @@
 
 <div class="container-fluid m-top-big m-bottom-big">
         <div class="row">
-            <div class="col-lg-6 order-last" style="padding:5%;">
+            <div class="col-lg-6 order-xxl-first order-xl-first order-lg-first order-md-first order-last" style="padding:5%;">
                 <p class="lwa-paragraphe text-white">
                     Nous exploitons les entreprises médiatiques de Sports Illustrated et TheStreet, et nous gérons plus de 140 marques, dont History, Maxim et Biography. 
                     LWA veut dire Le Web Africain.
@@ -133,7 +140,7 @@
                     Voir les projets
                 </a>
             </div>
-            <div class="col-lg-6 order-first">
+            <div class="col-lg-12 order-xxl-last order-xl-last order-lg-last order-md-last order-first">
                 <img src="https://res.cloudinary.com/aseed/image/upload/v1620910351/lwa/communaute_n9j6ws.jpg" alt="lwa-communauté" class="img-fluid" />
             </div>
         </div>
