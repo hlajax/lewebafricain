@@ -2,6 +2,19 @@ body{
 	background-color: #000000;
 	font-family: 'Roboto', sans-serif;
 }
+.bg-amarya{
+	background-color: #a9624f;
+}
+.prod-intro{
+	height: 400px;
+	padding:10%;
+}
+.prod-img{
+	background: url('https://res.cloudinary.com/aseed/image/upload/v1621336296/lwa/amaryaHeader_qnw4fr.jpg')no-repeat;
+    background-size:cover;
+	background-position:center;
+	height:500px;
+}
 .lwa-logo{
 	font-size: 24px;
 	font-weight: bold;
@@ -72,7 +85,7 @@ body{
 }
 .lwa-bloc-text{
 	font-size:36px;
-	font-weight:bold;
+	font-weight:400;
 }
 .lwa-paragraphe{
 	font-size: 24px;
@@ -148,6 +161,18 @@ body{
 		font-size: 16px;
 		font-weight: normal;
 		margin-top: 5%;
+	}
+	.prod-intro{
+		height: auto;
+		padding-top: 0%;
+		padding-left:20%;
+		padding-right: 20%;
+	}
+	.prod-img{
+		background: url('https://res.cloudinary.com/aseed/image/upload/v1621336296/lwa/amaryaHeader_qnw4fr.jpg')no-repeat;
+		background-size:cover;
+		background-position:center;
+		height:250px;
 	}
 	.nav-pills{
 		float: right;

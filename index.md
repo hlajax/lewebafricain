@@ -14,7 +14,7 @@ title: "Bienvenue | Le Web Africain"
                         Nous les aidons à les développer.
                     </h1>
                     <div class="btn-group dropdown">
-                        <button type="button" class="btn btn-lwa dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                        <button type="button" class="btn btn-lwa dropdown-toggle"  type="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Ce que nous avons construit
                         </button>
                         <ul class="dropdown-menu dropdown-menu-dark">
@@ -53,9 +53,6 @@ title: "Bienvenue | Le Web Africain"
                     Nous mettons à votre disposition notre équipe qui vous aide dans
                     la création et le déploiement de votre solution sur le web.
                 </p>
-                <a href="#" class="btn btn-lwa mt-4">
-                    Voir les projets
-                </a>
             </div>
             <div class="col-lg-6 order-xxl-last order-xl-last order-lg-last order-md-last order-first">
                 <img src="https://res.cloudinary.com/aseed/image/upload/v1620907302/lwa/contenu_gvxnza.jpg" alt="citation-keyser" class="img-fluid">
@@ -93,8 +90,8 @@ title: "Bienvenue | Le Web Africain"
                     </li>
                 </ul>
             </div>
-            <div class="col-lg-12 float-end">
-                <p class="float-end p-2">
+            <div class="col-lg-12 float-lg-end float-start">
+                <p class="float-lg-end float-start p-2">
                     &copy; <script>document.write(new Date().getFullYear())</script> <strong>Le Web Africain</strong>
                 </p>
             </div>
