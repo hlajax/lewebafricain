@@ -19,10 +19,9 @@ permalink: amarya
 <div class="container text-white">
     <div class="row">
         <div class="col-lg-8 offset-lg-2 m-top-big m-bottom-big">
-            <h2 class="fw-bold">Be together, whenever.</h2>
+            <h2 class="fw-bold">Pour le meilleur, et des souvenirs.</h2>
             <p>
-                Messenger helps you connect with the people you care about most. 
-                It is your shared space to customize and express what’s on your mind and share content and experiences in the moment together on any device, anytime, anywhere.
+                Amarya est la plus grande communauté des couples, elle permet aux couples déjà mariés d'inspirer les autres par leurs histoires et permet aux personnes de pouvoir s'inspirer et créer leurs propres pages de mariage.
             </p>
         </div>
     </div>
@@ -34,11 +33,11 @@ permalink: amarya
             <hr>
             <h5>Chief Business Officer</h5>
             <br>
-            <h6>Aïcha Venusia Asseko</h6>
+            <h6>Linda Kita</h6>
             <br>
-            <p>Téléphone : +24174408634</p>
+            <p>Téléphone : +243 906 484 412</p>
             <br>
-            <p>Email : digitalvee@gmail.com</p>
+            <p>Email : kita.linda@gmail.com</p>
         </div>
     </div>
 </div>

@@ -5,12 +5,39 @@ body{
 .bg-amarya{
 	background-color: #a9624f;
 }
+.bg-biografrik{
+	background-color: #23597f;
+}
+.bg-molakisi{
+	background-color: #00a3dd;
+}
+.bg-hame{
+	background-color: #222831;
+}
 .prod-intro{
 	height: 400px;
 	padding:10%;
 }
 .prod-img{
 	background: url('https://res.cloudinary.com/aseed/image/upload/v1621336296/lwa/amaryaHeader_qnw4fr.jpg')no-repeat;
+    background-size:cover;
+	background-position:center;
+	height:500px;
+}
+.prod-img-biografrik{
+	background: url('https://res.cloudinary.com/aseed/image/upload/v1621541475/lwa/biografrikHeader_tqbxpc.jpg')no-repeat;
+    background-size:cover;
+	background-position:center;
+	height:500px;
+}
+.prod-img-molakisi{
+	background: url('https://res.cloudinary.com/aseed/image/upload/v1621541475/lwa/molakisiHeader_bqdqjo.jpg')no-repeat;
+    background-size:cover;
+	background-position:center;
+	height:500px;
+}
+.prod-img-hame{
+	background: url('https://res.cloudinary.com/aseed/image/upload/v1621541474/lwa/erithageHeader_lusagm.jpg')no-repeat;
     background-size:cover;
 	background-position:center;
 	height:500px;
@@ -142,7 +169,7 @@ body{
   .overlay a {
 	padding: 8px;
 	text-decoration: none;
-	font-size: 36px;
+	font-size: 24px;
 	color: #818181;
 	display: block;
 	transition: 0.3s;

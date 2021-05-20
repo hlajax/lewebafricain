@@ -1,18 +1,4 @@
-<!DOCTYPE html>
-<html lang="en-US">
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="utf-8">
-    <title>Bienvenue | Le Web Africain - </title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" href="/index.css">
-    <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="icon" href="https://res.cloudinary.com/aseed/image/upload/v1620910132/lwa/icone2_cnqtu2.png">
-  </head>
-  <body>
-    <div class="container-fluid bg-amarya" style="height: 100px;">
+I"�<div class="container-fluid bg-hame" style="height: 100px;">
     <div id="myNav" class="overlay">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
   <div class="overlay-content">
@@ -69,20 +55,22 @@
 </div>
 <div class="container-fluid">
     <div class="row">
-        <div class="col-lg-5 bg-amarya prod-intro">
-            <img src="https://res.cloudinary.com/aseed/image/upload/v1621336766/amarya/Ai_Vector_colored-white_g2yjh3.png" alt="" class="img-fluid" />
-            <a href="https://lwa-amarya.herokuapp.com/" class="btn btn-outline-light mt-4" target="_blank">Aller sur Amarya</a>
+        <div class="col-lg-5 bg-hame prod-intro">
+            <img src="https://res.cloudinary.com/aseed/image/upload/v1621547116/hame/assets/logo_j37c4e.png" alt="" class="img-fluid" />
+            <a href="https://lwa-molakisi.herokuapp.com/" class="btn btn-outline-light mt-4" target="_blank">Aller sur Molakisi</a>
         </div>
-        <div class="col-lg-7 prod-img">
+        <div class="col-lg-7 prod-img-hame">
         </div>
     </div>
 </div>
 <div class="container text-white">
     <div class="row">
         <div class="col-lg-8 offset-lg-2 m-top-big m-bottom-big">
-            <h2 class="fw-bold">Pour le meilleur, et des souvenirs.</h2>
+            <h2 class="fw-bold">La mémoire de l'Afrique en ligne.</h2>
             <p>
-                Amarya est la plus grande communauté des couples, elle permet aux couples déjà mariés d'inspirer les autres par leurs histoires et permet aux personnes de pouvoir s'inspirer et créer leurs propres pages de mariage.
+                Molakisi est une encyclopédie multilingue entièrement dédié à la République Démocratique du Congo proposant des articles décrivant : 
+                son  art, ses grands événements, ses personnages célèbres et historiques, sa culture, son histoire,ses paysages.
+                Molakisi propose un contenu libre et vérifiable pouvant être modifié et améliorer par le public. Le site Web vise à éduquer la masse en proposant des ressources en lignes interactives, des quizz sur différents thèmes traités dans le site en français et dans les 4 langues nationales. 
             </p>
         </div>
     </div>
@@ -94,11 +82,11 @@
             <hr />
             <h5>Chief Business Officer</h5>
             <br />
-            <h6>Linda Kita</h6>
+            <h6>Henry Lepa</h6>
             <br />
-            <p>Téléphone : +243 906 484 412</p>
+            <p>Téléphone : +1 (725) 228-9645</p>
             <br />
-            <p>Email : kita.linda@gmail.com</p>
+            <p>Email : hlepa64@gmail.com</p>
         </div>
     </div>
 </div>
@@ -121,16 +109,4 @@
         </div>
     </div>
 </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
-    <script>
-        function openNav() {
-          document.getElementById("myNav").style.width = "100%";
-        }
-        
-        function closeNav() {
-          document.getElementById("myNav").style.width = "0%";
-        }
-        </script>  
-</body>
-</html>
+:ET
