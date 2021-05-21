@@ -57,12 +57,13 @@ body{
 	background-color:black;
 }
 
-.dropdown-menu .nav-item a{
+.nav-pills .dropdown-menu .dropdown-item{
 	color: white;
 	font-size: 16px;
 }
-.dropdown-menu .nav-item a:hover{
+.nav-pills .dropdown-menu .dropdown-item:hover{
 	color: black;
+	font-size: 16px;
 }
 .lwa-body{
 	background:url('https://res.cloudinary.com/aseed/image/upload/v1620649303/lwa/african-women-5991743_1920_n34mdp.jpg')no-repeat;

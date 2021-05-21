@@ -9,7 +9,7 @@ title: "Bienvenue | Le Web Africain"
             <div class="row">
                 <div class="col-lg-6 lwa-intro">
                     <h1 class="text-white lwa-intro-text">
-                        Nous croyons à la connexion des personnes et en leurs idées.
+                        Nous croyons à la connexion<br> des personnes et en leurs idées.
                         <br>
                         Nous les aidons à les développer.
                     </h1>
@@ -71,29 +71,8 @@ title: "Bienvenue | Le Web Africain"
                 <h2 class="text-center text-white lwa-bloc-text">
                     Nous construisons des technologies qui aident les gens à se connecter avec leurs amis et leur famille, à trouver des communautés et à développer des entreprises.
                 </h2>
-                <a href="https://bit.ly/2SHIe9R" class="btn btn-lwa btn-lg mt-5">Réjoindre la communauté</a>
+                <a href="https://bit.ly/3woZMpW" class="btn btn-lwa btn-lg mt-5" target="_blank">Réjoindre la communauté</a>
             </div>
         </div>
     </div>
-<div class="container m-top p-3 text-white">
-        <div class="row">
-            <div class="col-lg-12">
-                <ul class="nav nav-pills float-end">
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Accueil</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Nos produits</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">A propos de LWA</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-lg-12 float-lg-end float-start">
-                <p class="float-lg-end float-start p-2">
-                    &copy; <script>document.write(new Date().getFullYear())</script> <strong>Le Web Africain</strong>
-                </p>
-            </div>
-        </div>
-    </div>
+{% include footer.html %}
