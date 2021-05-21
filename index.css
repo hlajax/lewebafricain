@@ -215,6 +215,24 @@ body{
 		background-position:center;
 		height:250px;
 	}
+	.prod-img-biografrik{
+		background: url('https://res.cloudinary.com/aseed/image/upload/v1621541475/lwa/biografrikHeader_tqbxpc.jpg')no-repeat;
+		background-size:cover;
+		background-position:center;
+		height:250px;
+	}
+	.prod-img-molakisi{
+		background: url('https://res.cloudinary.com/aseed/image/upload/v1621541475/lwa/molakisiHeader_bqdqjo.jpg')no-repeat;
+		background-size:cover;
+		background-position:center;
+		height:250px;
+	}
+	.prod-img-hame{
+		background: url('https://res.cloudinary.com/aseed/image/upload/v1621541474/lwa/erithageHeader_lusagm.jpg')no-repeat;
+		background-size:cover;
+		background-position:center;
+		height:250px;
+	}
 	.nav-pills{
 		float: left;
 	}
