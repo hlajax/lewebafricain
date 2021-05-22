@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Bienvenue | Le Web Africain"
+title: "LWA | Pour une Afrique connectée avec du contenu"
 ---
 <div class="container-fluid lwa-body">
 {% include menu.html %}
