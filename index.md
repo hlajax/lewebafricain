@@ -23,7 +23,7 @@ title: "LWA | Pour une Afrique connectée avec du contenu"
                         </ul>
                     </div>
         </div>
-        <div class="col-lg-5">
+        <div class="col-lg-5 d-xxl-block d-xl-block d-lg-block d-md-block d-none">
             <img class="img-fluid" src="https://res.cloudinary.com/aseed/image/upload/v1652002534/lwa/connexion_oqzx5l.png"/>
         </div>
     </div>
