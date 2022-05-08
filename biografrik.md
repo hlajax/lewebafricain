@@ -10,7 +10,7 @@ permalink: biografrik
     <div class="row">
         <div class="col-lg-5 bg-biografrik prod-intro">
             <img src="https://res.cloudinary.com/aseed/image/upload/v1617308142/biografrik/assests/logo-biografrik_e1dffg.png" alt="" class="img-fluid">
-            <a href="https://www.biografrik.com/" class="btn btn-outline-light mt-4" target="_blank">Aller sur Biografrik</a>
+            <a href="https://www.biografrik.co/" class="btn btn-outline-light mt-4" target="_blank">Aller sur Biografrik</a>
         </div>
         <div class="col-lg-7 prod-img-biografrik">
         </div>

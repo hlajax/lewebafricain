@@ -1,5 +1,5 @@
 body{
-	background-color: #000000;
+	background-color: #1b1c1e;
 	font-family: 'Roboto', sans-serif;
 }
 .bg-amarya{
@@ -66,11 +66,56 @@ body{
 	font-size: 16px;
 }
 .lwa-body{
-	background:url('https://res.cloudinary.com/aseed/image/upload/v1620649303/lwa/african-women-5991743_1920_n34mdp.jpg')no-repeat;
+	background:url('https://res.cloudinary.com/aseed/image/upload/v1652001616/lwa/header_bg_lwa_ekcdkb.png')no-repeat;
 	background-position: center top;
 	background-size: cover;
 	background-repeat: no-repeat;
-	height: auto;
+	height: 500px;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+.bg-left{
+	background:url('https://res.cloudinary.com/aseed/image/upload/v1652008392/lwa/basikitoko_zq4b87.jpg')no-repeat;
+	background-position: center top;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 400px;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+.bg-right{
+	background:url('https://res.cloudinary.com/aseed/image/upload/v1652008392/lwa/libota_yquhil.jpg')no-repeat;
+	background-position: center top;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 400px;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+.bg-left-2{
+	background:url('https://res.cloudinary.com/aseed/image/upload/v1652009113/lwa/tokosss_jfxns4.jpg')no-repeat;
+	background-position: center top;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 400px;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+.bg-right-2{
+	background:url('https://res.cloudinary.com/aseed/image/upload/v1652009113/lwa/libotamunene_hliw8x.jpg')no-repeat;
+	background-position: center top;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 400px;
 	top: 0;
 	left: 0;
 	right: 0;
@@ -100,12 +145,12 @@ body{
 	font-size: 14px;
 }
 .lwa-intro{
-	padding-top: 15%;
+	padding-top: 10%;
 	padding-bottom: 5%;
 	padding-left: 5%;
 }
 .lwa-intro-text{
-	font-size: 40px;
+	font-size: 45px;
 	line-height: normal;
 }
 .lwa-bloc-text{
@@ -143,8 +188,8 @@ body{
 	padding-top: 3%;
 }
 .btn-lwa{
-	background-color: #253C59;
-	color:white;
+	background-color: #ffcd00;
+	color:black;
 }
 .overlay {
 	height: 100%;
@@ -265,6 +310,51 @@ body{
 		right: 0;
 		bottom: 0;
 	}
+	.bg-left{
+		background:url('https://res.cloudinary.com/aseed/image/upload/v1652008392/lwa/basikitoko_zq4b87.jpg')no-repeat;
+		background-position: center top;
+		background-size: cover;
+		background-repeat: no-repeat;
+		height: 150px;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+	}
+	.bg-right{
+		background:url('https://res.cloudinary.com/aseed/image/upload/v1652008392/lwa/libota_yquhil.jpg')no-repeat;
+		background-position: center top;
+		background-size: cover;
+		background-repeat: no-repeat;
+		height: 150px;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+	}
+	
+	.bg-left-2{
+		background:url('https://res.cloudinary.com/aseed/image/upload/v1652009113/lwa/tokosss_jfxns4.jpg')no-repeat;
+		background-position: center top;
+		background-size: cover;
+		background-repeat: no-repeat;
+		height: 150px;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+	}
+	.bg-right-2{
+		background:url('https://res.cloudinary.com/aseed/image/upload/v1652009113/lwa/libotamunene_hliw8x.jpg')no-repeat;
+		background-position: center top;
+		background-size: cover;
+		background-repeat: no-repeat;
+		height: 150px;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+	}
 	.lwa-text-bold{
 		font-weight: bold;
 	}
@@ -285,7 +375,7 @@ body{
 		font-size: 14px;
 	}
 	.lwa-intro{
-		padding-top: 40%;
+		padding-top: 10%;
 		padding-bottom: 0%;
 		padding-left: 5%;
 	}

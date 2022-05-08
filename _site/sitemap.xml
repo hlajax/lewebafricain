@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>https://www.lewebafricain.com//amarya</loc>
+<loc>http://localhost:4000/amarya</loc>
 </url>
 <url>
-<loc>https://www.lewebafricain.com//biografrik</loc>
+<loc>http://localhost:4000/biografrik</loc>
 </url>
 <url>
-<loc>https://www.lewebafricain.com//hame</loc>
+<loc>http://localhost:4000/hame</loc>
 </url>
 <url>
-<loc>https://www.lewebafricain.com//</loc>
+<loc>http://localhost:4000/</loc>
 </url>
 <url>
-<loc>https://www.lewebafricain.com//molakisi</loc>
+<loc>http://localhost:4000/molakisi</loc>
 </url>
 <url>
-<loc>https://www.lewebafricain.com//accueil.html</loc>
+<loc>http://localhost:4000/accueil.html</loc>
 <lastmod>2021-05-13T14:15:38+01:00</lastmod>
 </url>
 </urlset>
