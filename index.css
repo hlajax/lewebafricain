@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 body{
-	background-color: #1b1c1e;
+	background-color: #2d4443;
 	font-family: 'Roboto', sans-serif;
+}
+.lwa-bg-light{
+	background-color:#fffbd9;
 }
 .bg-amarya{
 	background-color: #a9624f;
@@ -125,6 +129,9 @@ body{
 	width: 40%;
 	margin-top: 3%;
 }
+.lwa-text-black{
+	color: #19181c;
+}
 .lwa-text-bold{
 	font-weight: bold;
 }
@@ -145,12 +152,13 @@ body{
 	font-size: 14px;
 }
 .lwa-intro{
-	padding-top: 10%;
-	padding-bottom: 5%;
-	padding-left: 5%;
+	padding-top: 0%;
+	padding-bottom: 0%;
+	padding-left: 0%;
 }
 .lwa-intro-text{
-	font-size: 45px;
+	font-size: 50px;
+	font-family: 'Anton', sans-serif;
 	line-height: normal;
 }
 .lwa-bloc-text{
@@ -160,7 +168,10 @@ body{
 .lwa-paragraphe{
 	font-size: 24px;
 	font-weight: 400;
-	text-align: left;
+}
+.lwa-section-title{
+	padding-left: 10%; 
+	padding-right:10%;
 }
 
 .m-top{
@@ -182,13 +193,9 @@ body{
 	font-size: 14px;
 	text-transform: uppercase;
 	border-radius: 0px;
-	padding-bottom: 3%;
-	padding-left: 10%;
-	padding-right: 10%;
-	padding-top: 3%;
 }
 .btn-lwa{
-	background-color: #ffcd00;
+	background-color: #f7b941;
 	color:black;
 }
 .overlay {
@@ -382,6 +389,7 @@ body{
 	.lwa-intro-text{
 		font-size: 20px;
 		line-height: normal;
+		text-align: center;
 	}
 	.lwa-bloc-text{
 		font-size:18px;
@@ -391,6 +399,10 @@ body{
 	.lwa-paragraphe{
 		text-align: center;
 		font-size: 16px;
+	}
+	.lwa-section-title{
+		padding-left: 2.5%; 
+		padding-right: 2.5%;
 	}
 	.m-top{
 		margin-top: 5%;
